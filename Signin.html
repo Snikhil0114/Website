@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIn Page</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <h1 id="Head">Gym Management System</h1>
+    <div class="container">
+      <h1>Sign in</h1>
+      <form action="/signin" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <button type="submit">Sign In</button>
+      </form>
+      <p>Don't have an account? <a href="SignUp.html">Sign Up</a></p>
+    </div>
+  </body>
+</html>
